@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/nn"
+
+    tools:context=".MainActivity2">
+
+        <TableRow>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Time Planning"
+                    android:textSize="30dp"
+                    android:textStyle="bold" />
+
+        </TableRow>
+            <TableRow>
+
+                    <TextView
+                        android:layout_width="200dp"
+                        android:layout_height="50dp"
+                        android:text="day"
+                        android:textStyle="bold"
+                        android:textSize="30dp"
+                        android:gravity="center"/>
+                    <TextView android:text="time"
+                        android:layout_width="200dp"
+                        android:layout_height="50dp"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:textSize="30dp"/>
+           </TableRow>
+        <TableRow>
+
+                <TextView
+                    android:layout_width="200dp"
+                    android:layout_height="50dp"
+                    android:text="Sunday"
+                    android:textStyle="bold"
+                    android:textSize="30dp"
+                    android:gravity="center"/>
+                <TextView android:text="9--->12"
+                    android:layout_width="200dp"
+                    android:layout_height="50dp"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:textSize="30dp"/>
+        </TableRow>
+        <TableRow>
+
+                <TextView
+                    android:layout_width="200dp"
+                    android:layout_height="50dp"
+                    android:text="Monday"
+                    android:textStyle="bold"
+                    android:textSize="30dp"
+                    android:gravity="center"/>
+                <TextView android:text="9--->12"
+                    android:layout_width="200dp"
+                    android:layout_height="50dp"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:textSize="30dp"/>
+        </TableRow>
+        <TableRow>
+
+                <TextView
+                    android:layout_width="200dp"
+                    android:layout_height="50dp"
+                    android:text="Thursday"
+                    android:textStyle="bold"
+                    android:textSize="30dp"
+                    android:gravity="center"/>
+                <TextView android:text="9--->12"
+                    android:layout_width="200dp"
+                    android:layout_height="50dp"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:textSize="30dp"/>
+        </TableRow>
+
+        <Button
+            android:id="@+id/btn_student"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="60dp"
+            android:layout_marginRight="100dp"
+            android:background="@drawable/l"
+            android:backgroundTint="#FFBB86FC"
+            android:padding="10dp"
+            android:text="Student list"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+        <Button
+            android:id="@+id/btn_log"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="100dp"
+            android:backgroundTint="#FFBB86FC"
+            android:padding="10dp"
+            android:text="school sit"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:background="@drawable/l"/>
+
+
+
+
+
+
+
+
+
+
+
+
+</TableLayout>

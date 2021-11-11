@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/nn"
+    android:layout_gravity="center"
+
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="57dp"
+        android:layout_gravity="center"
+        android:text="Techno Format"
+        android:textSize="50dp"
+        android:textStyle="italic"
+        android:layout_marginTop="80dp"
+        android:gravity="center"
+
+        />
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="400dp"
+        android:layout_marginRight="100dp"
+        android:backgroundTint="#FFBB86FC"
+        android:padding="10dp"
+        android:text="Log In"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:background="@drawable/l"/>
+
+
+
+</LinearLayout>
